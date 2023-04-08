@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'twitter-bg': '#15202B',
+      }
+    },
   },
   plugins: [],
 }
